@@ -31,15 +31,10 @@ Installation
 
 **Normally:** If you *don't* use composer, don't worry - just include TwitterAPIExchange.php in your application. 
 
-**Via Composer:** If you realise it's 2015 now and you *do* use composer, here's what you add to your composer.json file to have TwitterAPIExchange.php automatically imported into your vendors folder:
+**Via Composer:** If you realise it's 2015 now and you *do* use composer, install it with:
 
-    {
-        "require": {
-            "j7mbo/twitter-api-php": "dev-master"
-        }
-    }
+    $ composer require j7mbo/twitter-api-php
 
-Of course, you'll then need to run `php composer.phar update`.
 
 How To Use
 ----------
